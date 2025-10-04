@@ -1,4 +1,4 @@
 # first-file-practice
-practicing my first file
-i AM PRACTICING
-hello
+GIT CLONE:PASTING REPOSITORY
+CD FILE NAME
+
