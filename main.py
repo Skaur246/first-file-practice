@@ -1,4 +1,5 @@
 from output import area_of_shapes
+from area_calculation import area_of_circle
 
 # Calculating area of rectangles
 length1 = 10
@@ -10,10 +11,8 @@ width2 = 7
 area_rectangle2 = length2 * width2
 
 # Calculating area of circles
-radius1 = 4
-area_circle1 = 3.14 * (radius1 ** 2)
+radius = [4, 6]
+area_circle_list = area_of_circle(radius)
 
-radius2 = 6
-area_circle2 = 3.14 * (radius2 ** 2)
-
-area_of_shapes(area_rectangle1, area_rectangle2, area_circle1, area_circle2)
+# printing result
+area_of_shapes(area_rectangle1, area_rectangle2, area_circle_list[0], area_circle_list[1])
