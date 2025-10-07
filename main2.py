@@ -1,7 +1,4 @@
 """
-
-"""
-
 # Check for odd or even numbers in list 1
 numbers1 = [10, 15, 22, 29, 30]
 for num in numbers1:
@@ -25,3 +22,5 @@ for num in numbers3:
         print(f"{num} is even.")
     else:
         print(f"{num} is odd.")
+"""
+
